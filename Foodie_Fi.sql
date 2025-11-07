@@ -238,8 +238,6 @@ and next_start_date >= '2020-01-01' and next_start_date<'2021-01-01';
 --    and also starts at the end of the month period
 -- 4) once a customer churns they will no longer make payments
 
--- --------------------------------------------My Practice----------------------------------------------------------
-
 WITH RECURSIVE ORDER_SUBS AS
 (
 	SELECT 
